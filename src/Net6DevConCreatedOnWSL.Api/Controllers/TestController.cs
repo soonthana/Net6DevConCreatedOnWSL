@@ -9,7 +9,7 @@ public class TestController : ControllerBase
     [HttpGet]
     public ActionResult Get()
     {
-        var result = "Hello Test .NET 6";
+        var result = "Hello Test .NET 6, project created on WSL";
 
         return Ok(result);
     }
